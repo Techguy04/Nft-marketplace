@@ -1,0 +1,203 @@
+/** @format */
+
+@media (max-width: 1024px) {
+	.headerlft h1 {
+		font-size: 4rem;
+	}
+
+	.headerlft p {
+		width: 75%;
+	}
+
+	.headerlft button {
+		width: 40%;
+	}
+
+	.headerrght {
+		height: 450px;
+	}
+
+	.lftbtn {
+		width: 50%;
+	}
+
+	.headerlft button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 896px) {
+	.headeritems {
+		/* background-color: red; */
+		margin: 20px 0px;
+	}
+	/* .navtext {
+    display: none;
+  }
+  .navbtn  {
+    display: none;
+  } */
+	.headerlft {
+		width: 50%;
+	}
+
+	.headerlft h1 {
+		width: 100%;
+		font-size: 2.5rem;
+	}
+
+	.headerlft p {
+		width: 78%;
+	}
+
+	.headerrght {
+		width: 50%;
+		height: 400px;
+	}
+
+	.lftbtn {
+		width: 50%;
+	}
+
+	.headerlft button {
+		width: 100%;
+	}
+
+	.carditems {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.explore {
+		width: 100%;
+	}
+
+	.explore h1 {
+		font-size: 60px;
+	}
+
+	.explorebtns button {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navitems {
+		/* padding: 10px 4%; */
+	}
+
+.burger  {
+	display: block;
+}
+
+	.headeritems {
+		height: 350px;
+		margin: 0px 0px;
+	}
+
+	.navtext {
+		display: none;
+	}
+	.navbtn {
+		display: none;
+	}
+
+	.headerlft {
+		align-items: center;
+		width: 100%;
+	}
+
+	.headerlft h1 {
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	.headerlft p {
+		width: 55%;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.headerrght {
+		display: none;
+		width: 55%;
+		height: 350px;
+	}
+
+	.lftbtn {
+		width: 50%;
+	}
+	.explore h1 {
+		font-size: 50px;
+		width: 100%;
+	}
+
+	.footer {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	.headerlft h1 {
+		font-size: 2rem;
+	}
+
+	.headerlft p {
+		width: 80%;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.crdhead {
+		font-size: 20px;
+	}
+
+	.carditems {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.card {
+		height: 400px;
+	}
+
+	.price {
+		margin-top: 40px;
+	}
+
+	.exploreitems {
+		height: 250px;
+	}
+
+	.explore h1 {
+		font-size: 30px;
+		width: 100%;
+	}
+
+	.explorebtns button {
+		width: 30%;
+	}
+}
+
+@media (max-width: 356px) {
+	.headerlft p {
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.lftbtn {
+		width: 55%;
+	}
+
+	.exploreitems {
+		height: 200px;
+	}
+
+	.explore h1 {
+		font-size: 25px;
+	}
+
+	.explorebtns button {
+		width: 35%;
+    font-size: 13px
+	}
+}
