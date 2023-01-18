@@ -20,7 +20,7 @@ body {
 	color: rgb(67, 7, 124) !important;
 }
 
-.burger  {
+.burger {
 	display: none;
 }
 
@@ -150,7 +150,7 @@ body {
 .lftbtn button {
 	width: 100%;
 	height: inherit;
-	
+
 	font-family: "Poppins", sans-serif;
 	font-size: 15px;
 	border: none;
@@ -201,11 +201,9 @@ body {
 	align-items: start;
 	border-radius: 10px;
 	cursor: pointer;
-	/* transition: border 1s ease; */
 }
 
 .card:hover {
-	/* transform: scale(1); */
 	scale: 1;
 	border: 3px solid rgb(67, 7, 124);
 	transition: border 100ms linear;
@@ -256,6 +254,35 @@ body {
 	font-size: 20px;
 }
 
+.card button {
+	width: 80%;
+	height: 45px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	border: none;
+	background: linear-gradient(50deg, rgb(59, 3, 112), RGB(20, 20, 42));
+	border-radius: inherit;
+	/* background-color: rgb(54, 4, 101); */
+	color: whitesmoke;
+display: none;
+align-items: center;
+	justify-content: center;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.card:hover .price {
+	display: none;
+}
+
+.card:hover button {
+	display: flex;
+}
+
+
+.card .cbtn {
+	display: flex;
+}
 /* Explore styles */
 .exploreitems {
 	/* background-color: rgb(20, 20, 20); */
@@ -364,7 +391,7 @@ body {
 	display: block;
 	color: white !important;
 	/* margin-bottom: 1.5rem; */
-}   
+}
 
 .social-links {
 	list-style: none;
